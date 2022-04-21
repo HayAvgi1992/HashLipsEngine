@@ -23,6 +23,20 @@ E.X:
 */
 const changeItemsForSpecificFiles = {}
 
+/*
+E.X:
+{
+  "trait_type" : {
+    "src": "AAA",
+    "dst": "Background"
+  },
+  "value": {
+    "src": "BBB",
+    "dst": "Black"
+  }
+}
+*/
+const updateTraitTypesandValues = {}
 
 const solanaMetadata = {
   symbol: "YC",
@@ -134,5 +148,6 @@ module.exports = {
   solanaMetadata,
   gif,
   preview_gif,
-  changeItemsForSpecificFiles
+  changeItemsForSpecificFiles,
+  updateTraitTypesandValues
 };
